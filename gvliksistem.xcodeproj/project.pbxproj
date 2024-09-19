@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D4A14062A724ED100A7815C /* gvliksistemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4A14052A724ED100A7815C /* gvliksistemApp.swift */; };
+		5D4A14082A724ED100A7815C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4A14072A724ED100A7815C /* ContentView.swift */; };
+		5D4A140A2A724ED200A7815C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4A14092A724ED200A7815C /* Assets.xcassets */; };
+		5D4A140E2A724ED200A7815C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D4A140D2A724ED200A7815C /* Preview Assets.xcassets */; };
+		5D4A14182A724ED200A7815C /* gvliksistemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4A14172A724ED200A7815C /* gvliksistemTests.swift */; };
+		5D4A14222A724ED200A7815C /* gvliksistemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4A14212A724ED200A7815C /* gvliksistemUITests.swift */; };
+		5D4A14242A724ED200A7815C /* gvliksistemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4A14232A724ED200A7815C /* gvliksistemUITestsLaunchTests.swift */; };
+		5D4A14312A7255B600A7815C /* register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4A14302A7255B600A7815C /* register.swift */; };
+		5DD08FE82A728EE2008EF4FA /* homescreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD08FE72A728EE2008EF4FA /* homescreen.swift */; };
+		5DD08FEA2A729307008EF4FA /* settingscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD08FE92A729307008EF4FA /* settingscreen.swift */; };
+		5DD08FEC2A7297E7008EF4FA /* messagescreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD08FEB2A7297E7008EF4FA /* messagescreen.swift */; };
+		5DD08FEE2A729FA6008EF4FA /* message2screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD08FED2A729FA6008EF4FA /* message2screen.swift */; };
+		5DD08FF02A72A1C8008EF4FA /* forgotscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD08FEF2A72A1C8008EF4FA /* forgotscreen.swift */; };
+		5DD08FF12A72A87E008EF4FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4A14072A724ED100A7815C /* ContentView.swift */; };
+		5DD08FF22A72A87F008EF4FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4A14072A724ED100A7815C /* ContentView.swift */; };
+		5DD08FF62A72B89A008EF4FA /* il_ilceler.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5DD08FF52A72B89A008EF4FA /* il_ilceler.xml */; };
+		5DD08FF72A72B89A008EF4FA /* il_ilceler.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5DD08FF52A72B89A008EF4FA /* il_ilceler.xml */; };
+		5DD08FF82A72B89A008EF4FA /* il_ilceler.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5DD08FF52A72B89A008EF4FA /* il_ilceler.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D4A14142A724ED200A7815C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4A13FA2A724ED100A7815C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D4A14012A724ED100A7815C;
+			remoteInfo = gvliksistem;
+		};
+		5D4A141E2A724ED200A7815C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D4A13FA2A724ED100A7815C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D4A14012A724ED100A7815C;
+			remoteInfo = gvliksistem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D4A14022A724ED100A7815C /* gvliksistem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gvliksistem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4A14052A724ED100A7815C /* gvliksistemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gvliksistemApp.swift; sourceTree = "<group>"; };
+		5D4A14072A724ED100A7815C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		5D4A14092A724ED200A7815C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D4A140B2A724ED200A7815C /* gvliksistem.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gvliksistem.entitlements; sourceTree = "<group>"; };
+		5D4A140D2A724ED200A7815C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D4A14132A724ED200A7815C /* gvliksistemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gvliksistemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4A14172A724ED200A7815C /* gvliksistemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gvliksistemTests.swift; sourceTree = "<group>"; };
+		5D4A141D2A724ED200A7815C /* gvliksistemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gvliksistemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D4A14212A724ED200A7815C /* gvliksistemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gvliksistemUITests.swift; sourceTree = "<group>"; };
+		5D4A14232A724ED200A7815C /* gvliksistemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gvliksistemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D4A14302A7255B600A7815C /* register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = register.swift; sourceTree = "<group>"; };
+		5D62C8E62A7939DF00FC5588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5DD08FE72A728EE2008EF4FA /* homescreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homescreen.swift; sourceTree = "<group>"; };
+		5DD08FE92A729307008EF4FA /* settingscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingscreen.swift; sourceTree = "<group>"; };
+		5DD08FEB2A7297E7008EF4FA /* messagescreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messagescreen.swift; sourceTree = "<group>"; };
+		5DD08FED2A729FA6008EF4FA /* message2screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = message2screen.swift; sourceTree = "<group>"; };
+		5DD08FEF2A72A1C8008EF4FA /* forgotscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotscreen.swift; sourceTree = "<group>"; };
+		5DD08FF52A72B89A008EF4FA /* il_ilceler.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = il_ilceler.xml; sourceTree = "<group>"; };
+		5DEF5B012A822D2600231C85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D4A13FF2A724ED100A7815C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4A14102A724ED200A7815C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4A141A2A724ED200A7815C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D4A13F92A724ED100A7815C = {
+			isa = PBXGroup;
+			children = (
+				5D4A14042A724ED100A7815C /* gvliksistem */,
+				5D4A14162A724ED200A7815C /* gvliksistemTests */,
+				5D4A14202A724ED200A7815C /* gvliksistemUITests */,
+				5D4A14032A724ED100A7815C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D4A14032A724ED100A7815C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D4A14022A724ED100A7815C /* gvliksistem.app */,
+				5D4A14132A724ED200A7815C /* gvliksistemTests.xctest */,
+				5D4A141D2A724ED200A7815C /* gvliksistemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D4A14042A724ED100A7815C /* gvliksistem */ = {
+			isa = PBXGroup;
+			children = (
+				5D62C8E62A7939DF00FC5588 /* Info.plist */,
+				5D4A14052A724ED100A7815C /* gvliksistemApp.swift */,
+				5D4A14072A724ED100A7815C /* ContentView.swift */,
+				5DD08FED2A729FA6008EF4FA /* message2screen.swift */,
+				5DD08FEB2A7297E7008EF4FA /* messagescreen.swift */,
+				5DD08FE72A728EE2008EF4FA /* homescreen.swift */,
+				5DD08FEF2A72A1C8008EF4FA /* forgotscreen.swift */,
+				5D4A14302A7255B600A7815C /* register.swift */,
+				5DD08FE92A729307008EF4FA /* settingscreen.swift */,
+				5D4A14092A724ED200A7815C /* Assets.xcassets */,
+				5DD08FF52A72B89A008EF4FA /* il_ilceler.xml */,
+				5D4A140B2A724ED200A7815C /* gvliksistem.entitlements */,
+				5D4A140C2A724ED200A7815C /* Preview Content */,
+			);
+			path = gvliksistem;
+			sourceTree = "<group>";
+		};
+		5D4A140C2A724ED200A7815C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5D4A140D2A724ED200A7815C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D4A14162A724ED200A7815C /* gvliksistemTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DEF5B012A822D2600231C85 /* Info.plist */,
+				5D4A14172A724ED200A7815C /* gvliksistemTests.swift */,
+			);
+			path = gvliksistemTests;
+			sourceTree = "<group>";
+		};
+		5D4A14202A724ED200A7815C /* gvliksistemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D4A14212A724ED200A7815C /* gvliksistemUITests.swift */,
+				5D4A14232A724ED200A7815C /* gvliksistemUITestsLaunchTests.swift */,
+			);
+			path = gvliksistemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D4A14012A724ED100A7815C /* gvliksistem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4A14272A724ED200A7815C /* Build configuration list for PBXNativeTarget "gvliksistem" */;
+			buildPhases = (
+				5D4A13FE2A724ED100A7815C /* Sources */,
+				5D4A13FF2A724ED100A7815C /* Frameworks */,
+				5D4A14002A724ED100A7815C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gvliksistem;
+			productName = gvliksistem;
+			productReference = 5D4A14022A724ED100A7815C /* gvliksistem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D4A14122A724ED200A7815C /* gvliksistemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4A142A2A724ED200A7815C /* Build configuration list for PBXNativeTarget "gvliksistemTests" */;
+			buildPhases = (
+				5D4A140F2A724ED200A7815C /* Sources */,
+				5D4A14102A724ED200A7815C /* Frameworks */,
+				5D4A14112A724ED200A7815C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D4A14152A724ED200A7815C /* PBXTargetDependency */,
+			);
+			name = gvliksistemTests;
+			productName = gvliksistemTests;
+			productReference = 5D4A14132A724ED200A7815C /* gvliksistemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D4A141C2A724ED200A7815C /* gvliksistemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D4A142D2A724ED200A7815C /* Build configuration list for PBXNativeTarget "gvliksistemUITests" */;
+			buildPhases = (
+				5D4A14192A724ED200A7815C /* Sources */,
+				5D4A141A2A724ED200A7815C /* Frameworks */,
+				5D4A141B2A724ED200A7815C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D4A141F2A724ED200A7815C /* PBXTargetDependency */,
+			);
+			name = gvliksistemUITests;
+			productName = gvliksistemUITests;
+			productReference = 5D4A141D2A724ED200A7815C /* gvliksistemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D4A13FA2A724ED100A7815C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5D4A14012A724ED100A7815C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					5D4A14122A724ED200A7815C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5D4A14012A724ED100A7815C;
+					};
+					5D4A141C2A724ED200A7815C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 5D4A14012A724ED100A7815C;
+					};
+				};
+			};
+			buildConfigurationList = 5D4A13FD2A724ED100A7815C /* Build configuration list for PBXProject "gvliksistem" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D4A13F92A724ED100A7815C;
+			productRefGroup = 5D4A14032A724ED100A7815C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D4A14012A724ED100A7815C /* gvliksistem */,
+				5D4A14122A724ED200A7815C /* gvliksistemTests */,
+				5D4A141C2A724ED200A7815C /* gvliksistemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D4A14002A724ED100A7815C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4A140E2A724ED200A7815C /* Preview Assets.xcassets in Resources */,
+				5DD08FF62A72B89A008EF4FA /* il_ilceler.xml in Resources */,
+				5D4A140A2A724ED200A7815C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4A14112A724ED200A7815C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD08FF72A72B89A008EF4FA /* il_ilceler.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4A141B2A724ED200A7815C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD08FF82A72B89A008EF4FA /* il_ilceler.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D4A13FE2A724ED100A7815C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD08FE82A728EE2008EF4FA /* homescreen.swift in Sources */,
+				5DD08FEC2A7297E7008EF4FA /* messagescreen.swift in Sources */,
+				5DD08FEE2A729FA6008EF4FA /* message2screen.swift in Sources */,
+				5D4A14082A724ED100A7815C /* ContentView.swift in Sources */,
+				5D4A14062A724ED100A7815C /* gvliksistemApp.swift in Sources */,
+				5DD08FEA2A729307008EF4FA /* settingscreen.swift in Sources */,
+				5DD08FF02A72A1C8008EF4FA /* forgotscreen.swift in Sources */,
+				5D4A14312A7255B600A7815C /* register.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4A140F2A724ED200A7815C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DD08FF12A72A87E008EF4FA /* ContentView.swift in Sources */,
+				5D4A14182A724ED200A7815C /* gvliksistemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D4A14192A724ED200A7815C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4A14222A724ED200A7815C /* gvliksistemUITests.swift in Sources */,
+				5D4A14242A724ED200A7815C /* gvliksistemUITestsLaunchTests.swift in Sources */,
+				5DD08FF22A72A87F008EF4FA /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D4A14152A724ED200A7815C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D4A14012A724ED100A7815C /* gvliksistem */;
+			targetProxy = 5D4A14142A724ED200A7815C /* PBXContainerItemProxy */;
+		};
+		5D4A141F2A724ED200A7815C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D4A14012A724ED100A7815C /* gvliksistem */;
+			targetProxy = 5D4A141E2A724ED200A7815C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D4A14252A724ED200A7815C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D4A14262A724ED200A7815C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5D4A14282A724ED200A7815C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gvliksistem/gvliksistem.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gvliksistem/Preview Content\"";
+				DEVELOPMENT_TEAM = 8J97S3G6B5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gvliksistem/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "<string>Uygulama kullanılırken ve arka planda çalışırken konum bilginizi kullanmasına izin veriyor musunuz?</string>";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "<string>Uygulamanın konum bilginizi kullanmasına izin veriyor musunuz?</string>\n";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aihear.gvliksistem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D4A14292A724ED200A7815C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gvliksistem/gvliksistem.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gvliksistem/Preview Content\"";
+				DEVELOPMENT_TEAM = 8J97S3G6B5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gvliksistem/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "<string>Uygulama kullanılırken ve arka planda çalışırken konum bilginizi kullanmasına izin veriyor musunuz?</string>";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "<string>Uygulamanın konum bilginizi kullanmasına izin veriyor musunuz?</string>\n";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aihear.gvliksistem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D4A142B2A724ED200A7815C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J97S3G6B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gvliksistemTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aihear.gvliksistemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gvliksistem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gvliksistem";
+			};
+			name = Debug;
+		};
+		5D4A142C2A724ED200A7815C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J97S3G6B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = gvliksistemTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aihear.gvliksistemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gvliksistem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gvliksistem";
+			};
+			name = Release;
+		};
+		5D4A142E2A724ED200A7815C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J97S3G6B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aihear.gvliksistemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gvliksistem;
+			};
+			name = Debug;
+		};
+		5D4A142F2A724ED200A7815C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8J97S3G6B5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aihear.gvliksistemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gvliksistem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D4A13FD2A724ED100A7815C /* Build configuration list for PBXProject "gvliksistem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4A14252A724ED200A7815C /* Debug */,
+				5D4A14262A724ED200A7815C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4A14272A724ED200A7815C /* Build configuration list for PBXNativeTarget "gvliksistem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4A14282A724ED200A7815C /* Debug */,
+				5D4A14292A724ED200A7815C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4A142A2A724ED200A7815C /* Build configuration list for PBXNativeTarget "gvliksistemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4A142B2A724ED200A7815C /* Debug */,
+				5D4A142C2A724ED200A7815C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D4A142D2A724ED200A7815C /* Build configuration list for PBXNativeTarget "gvliksistemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4A142E2A724ED200A7815C /* Debug */,
+				5D4A142F2A724ED200A7815C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D4A13FA2A724ED100A7815C /* Project object */;
+}

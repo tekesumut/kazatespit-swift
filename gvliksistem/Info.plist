@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict/>
+	</array>
+	<key>CFBundleGetInfoString</key>
+	<string>UIBackgroundModes</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+		<string>external-accessory</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>nearby-interaction</string>
+		<string>processing</string>
+		<string>push-to-talk</string>
+		<string>remote-notification</string>
+		<string>voip</string>
+		<string></string>
+		<string></string>
+		<string></string>
+	</array>
+	<key>UNUserNotificationCenter</key>
+	<string></string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Uygulama konumunuzu her zaman takip edecektir.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Uygulama konumunuzu kullanımdayken takip edecektir.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Uygulama konumunuzu arka planda ve kullanımdayken takip edecektir.&quot;</string>
+	<key></key>
+	<false/>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+</dict>
+</plist>
